@@ -1,0 +1,13 @@
+configuration {
+	modi: "window,drun,ssh";
+	font: "JetBrains Mono 12";
+  timeout {
+      action: "kb-cancel";
+      delay:  0;
+  }
+  filebrowser {
+      directories-first: true;
+      sorting-method:    "name";
+  }
+}
+@theme "/usr/share/rofi/themes/android_notification.rasi"

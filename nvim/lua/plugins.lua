@@ -60,6 +60,7 @@ return require('packer').startup(function()
 
 
 
+    use 'vyperlang/vim-vyper'
     -----------------------------------------------------------
     -- PYTHON
     -----------------------------------------------------------
@@ -67,6 +68,12 @@ return require('packer').startup(function()
     use 'fisadev/vim-isort'
     -- Поддержка темплейтом jinja2
     use 'mitsuhiko/vim-jinja'
+    -----------------------------------------------------------
+    --- Solidity
+    -----------------------------------------------------------
+    use 'tomlion/vim-solidity' 
+    use 'MattesGroeger/vim-bookmarks'
+    use 'JamshedVesuna/vim-markdown-preview'
 
 
     -----------------------------------------------------------

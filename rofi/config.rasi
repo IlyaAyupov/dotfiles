@@ -1,5 +1,5 @@
 configuration {
-	modi: "window,drun,ssh";
+	modi: "drun,ssh";
 	font: "JetBrains Mono 12";
   timeout {
       action: "kb-cancel";

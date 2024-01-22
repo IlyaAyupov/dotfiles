@@ -42,6 +42,8 @@ map('n', '<F5>', ':exec &nu==&rnu? "se nu!" : "se rnu!"<CR>', default_opts)
 map('n', '<F6>', ':NvimTreeRefresh<CR>:NvimTreeToggle<CR>', default_opts)
 -- <F8>  Показ дерева классов и функций, плагин majutsushi/tagbar
 map('n', '<F8>', ':TagbarToggle<CR>', default_opts)
+map('i', '<F9>', '<Esc>:w<CR>:!python3 %<CR>', default_opts)
+map('n', '<F9>', ':w<CR>:!python3 %<CR>', default_opts)
 -- <F11> Проверка орфографии  для русского и английского языка
 map('n', '<F11>', ':set spell!<CR>', default_opts)
 map('i', '<F11>', '<C-O>:set spell!<CR>', default_opts)
